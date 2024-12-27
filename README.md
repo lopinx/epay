@@ -1,4 +1,4 @@
-﻿<center>彩虹易支付</center>
+﻿<div align="center">彩虹易支付</div>
 
 ### 部署环境 
 
