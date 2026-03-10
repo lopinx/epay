@@ -1,0 +1,27 @@
+{
+	"name": "cccyun/wechatpay-sdk",
+	"description": "微信支付第三方 PHP SDK，基于官方最新版本，包含V2和V3两种接口。",
+	"type": "library",
+	"keywords": [
+		"wxpay",
+		"wechat",
+		"微信支付"
+	],
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.1"
+	},
+	"authors": [
+		{
+			"name": "caihong",
+			"email": "admin@cccyun.cn"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"WeChatPay\\": "src/"
+		}
+	}
+}

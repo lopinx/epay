@@ -1,0 +1,355 @@
+{
+    "packages": [
+        {
+            "name": "cccyun/alipay-sdk",
+            "version": "1.7",
+            "version_normalized": "1.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netcccyun/alipay-sdk-php.git",
+                "reference": "930f85d3f7ff31f53d64e8b39093b0bc24d51ed8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netcccyun/alipay-sdk-php/zipball/930f85d3f7ff31f53d64e8b39093b0bc24d51ed8",
+                "reference": "930f85d3f7ff31f53d64e8b39093b0bc24d51ed8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "time": "2024-03-01T02:22:04+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Alipay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "caihong",
+                    "email": "admin@cccyun.cn"
+                }
+            ],
+            "description": "支付宝开放平台第三方 PHP SDK，基于官方最新版本，支持公钥和公钥证书2种模式。",
+            "keywords": [
+                "alipay",
+                "支付宝"
+            ],
+            "support": {
+                "issues": "https://github.com/netcccyun/alipay-sdk-php/issues",
+                "source": "https://github.com/netcccyun/alipay-sdk-php/tree/1.7"
+            },
+            "install-path": "../cccyun/alipay-sdk"
+        },
+        {
+            "name": "cccyun/qqpay-sdk",
+            "version": "1.2",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netcccyun/qqpay-sdk-php.git",
+                "reference": "873e1d9f06f3cecdbad165fa921096437cc8bcbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netcccyun/qqpay-sdk-php/zipball/873e1d9f06f3cecdbad165fa921096437cc8bcbe",
+                "reference": "873e1d9f06f3cecdbad165fa921096437cc8bcbe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "time": "2023-04-02T02:46:22+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "QQPay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "caihong",
+                    "email": "admin@cccyun.cn"
+                }
+            ],
+            "description": "QQ钱包支付第三方 PHP SDK，基于官方最新版本。",
+            "keywords": [
+                "QQ支付",
+                "qpay",
+                "qqpay"
+            ],
+            "support": {
+                "issues": "https://github.com/netcccyun/qqpay-sdk-php/issues",
+                "source": "https://github.com/netcccyun/qqpay-sdk-php/tree/1.2"
+            },
+            "install-path": "../cccyun/qqpay-sdk"
+        },
+        {
+            "name": "cccyun/wechatpay-sdk",
+            "version": "1.7",
+            "version_normalized": "1.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netcccyun/wechatpay-sdk-php.git",
+                "reference": "c8912fd1af1f57a566d662433de2b23a72f8b2e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netcccyun/wechatpay-sdk-php/zipball/c8912fd1af1f57a566d662433de2b23a72f8b2e7",
+                "reference": "c8912fd1af1f57a566d662433de2b23a72f8b2e7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "time": "2023-12-28T08:50:42+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WeChatPay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "caihong",
+                    "email": "admin@cccyun.cn"
+                }
+            ],
+            "description": "微信支付第三方 PHP SDK，基于官方最新版本，包含V2和V3两种接口。",
+            "keywords": [
+                "Wxpay",
+                "wechat",
+                "微信支付"
+            ],
+            "support": {
+                "issues": "https://github.com/netcccyun/wechatpay-sdk-php/issues",
+                "source": "https://github.com/netcccyun/wechatpay-sdk-php/tree/1.7"
+            },
+            "install-path": "../cccyun/wechatpay-sdk"
+        },
+        {
+            "name": "fgrosse/phpasn1",
+            "version": "v2.5.0",
+            "version_normalized": "2.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fgrosse/PHPASN1.git",
+                "reference": "42060ed45344789fb9f21f9f1864fc47b9e3507b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fgrosse/PHPASN1/zipball/42060ed45344789fb9f21f9f1864fc47b9e3507b",
+                "reference": "42060ed45344789fb9f21f9f1864fc47b9e3507b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "~2.0",
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+            },
+            "suggest": {
+                "ext-bcmath": "BCmath is the fallback extension for big integer calculations",
+                "ext-curl": "For loading OID information from the web if they have not bee defined statically",
+                "ext-gmp": "GMP is the preferred extension for big integer calculations",
+                "phpseclib/bcmath_compat": "BCmath polyfill for servers where neither GMP nor BCmath is available"
+            },
+            "time": "2022-12-19T11:08:26+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FG\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Friedrich Große",
+                    "email": "friedrich.grosse@gmail.com",
+                    "homepage": "https://github.com/FGrosse",
+                    "role": "Author"
+                },
+                {
+                    "name": "All contributors",
+                    "homepage": "https://github.com/FGrosse/PHPASN1/contributors"
+                }
+            ],
+            "description": "A PHP Framework that allows you to encode and decode arbitrary ASN.1 structures using the ITU-T X.690 Encoding Rules.",
+            "homepage": "https://github.com/FGrosse/PHPASN1",
+            "keywords": [
+                "DER",
+                "asn.1",
+                "asn1",
+                "ber",
+                "binary",
+                "decoding",
+                "encoding",
+                "x.509",
+                "x.690",
+                "x509",
+                "x690"
+            ],
+            "support": {
+                "issues": "https://github.com/fgrosse/PHPASN1/issues",
+                "source": "https://github.com/fgrosse/PHPASN1/tree/v2.5.0"
+            },
+            "abandoned": true,
+            "install-path": "../fgrosse/phpasn1"
+        },
+        {
+            "name": "lpilp/guomi",
+            "version": "v1.0.9",
+            "version_normalized": "1.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lpilp/phpsm2sm3sm4.git",
+                "reference": "9d342416acec45db0d38dd3a8fbc1904463e6b31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lpilp/phpsm2sm3sm4/zipball/9d342416acec45db0d38dd3a8fbc1904463e6b31",
+                "reference": "9d342416acec45db0d38dd3a8fbc1904463e6b31",
+                "shasum": ""
+            },
+            "require": {
+                "mdanter/ecc": "^1.0",
+                "php": ">=7.2"
+            },
+            "time": "2024-02-04T08:43:06+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/overwrite.php"
+                ],
+                "psr-4": {
+                    "Rtgm\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "recent",
+                    "email": "lpilp@126.com"
+                }
+            ],
+            "description": "国密sm2",
+            "support": {
+                "issues": "https://github.com/lpilp/phpsm2sm3sm4/issues",
+                "source": "https://github.com/lpilp/phpsm2sm3sm4/tree/v1.0.9"
+            },
+            "install-path": "../lpilp/guomi"
+        },
+        {
+            "name": "mdanter/ecc",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpecc/phpecc.git",
+                "reference": "34e2eec096bf3dcda814e8f66dd91ae87a2db7cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpecc/phpecc/zipball/34e2eec096bf3dcda814e8f66dd91ae87a2db7cd",
+                "reference": "34e2eec096bf3dcda814e8f66dd91ae87a2db7cd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "fgrosse/phpasn1": "^2.0",
+                "php": "^7.0||^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0||^8.0||^9.0",
+                "squizlabs/php_codesniffer": "^2.0",
+                "symfony/yaml": "^2.6|^3.0"
+            },
+            "time": "2021-01-16T19:42:14+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Mdanter\\Ecc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matyas Danter",
+                    "homepage": "http://matejdanter.com/",
+                    "role": "Author"
+                },
+                {
+                    "name": "Thibaud Fabre",
+                    "email": "thibaud@aztech.io",
+                    "homepage": "http://aztech.io",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Thomas Kerin",
+                    "email": "afk11@users.noreply.github.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "PHP Elliptic Curve Cryptography library",
+            "homepage": "https://github.com/phpecc/phpecc",
+            "keywords": [
+                "Diffie",
+                "ECDSA",
+                "Hellman",
+                "curve",
+                "ecdh",
+                "elliptic",
+                "nistp192",
+                "nistp224",
+                "nistp256",
+                "nistp384",
+                "nistp521",
+                "phpecc",
+                "secp256k1",
+                "secp256r1"
+            ],
+            "support": {
+                "issues": "https://github.com/phpecc/phpecc/issues",
+                "source": "https://github.com/phpecc/phpecc/tree/v1.0.0"
+            },
+            "abandoned": "paragonie/ecc",
+            "install-path": "../mdanter/ecc"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

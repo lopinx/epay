@@ -1,0 +1,26 @@
+{
+	"name": "cccyun/alipay-sdk",
+	"description": "支付宝开放平台第三方 PHP SDK，基于官方最新版本，支持公钥和公钥证书2种模式。",
+	"type": "library",
+	"keywords": [
+		"alipay",
+		"支付宝"
+	],
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.1"
+	},
+	"authors": [
+		{
+			"name": "caihong",
+			"email": "admin@cccyun.cn"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Alipay\\": "src/"
+		}
+	}
+}
